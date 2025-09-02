@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>proyecto de vida</title>
+    <link rel="stylesheet" href="formato.css">
+</head>
+<body>
+
+    <div class="barra-busqueda">
+    <img src="logo.jpg" alt="Logo" class="logo-busqueda">
+    <!-- esta imagen hace la representacion de de mi hoja de bida -->
+    <input type="text" placeholder="Buscar...">
+</div>
+
+
+    <div class="mi-elemento">
+
+    <h1>Hola, soy Emanuel</h1>
+<p>Bienvenido a programacion o mejor dicho
+mi presentacion</p>
+<img src="th1.png" alt="Descripción" class="imagen-derecha">
+<!-- logo de visual studio code -->
+         <a href="#elemento2">
+        <button class="boton">Hoja de vida</button>
+         </a>
+
+</div>
+
+<div id="elemento2" class="cv-section">
+
+    <img src="foto de hoja de vida.jpg" alt="Descripción" class="imagen-izquierda">
+<!-- imagen de mi rostro para mi hoja de vida -->
+     <h1>Emanuel Tapias</h1>
+    <h2>Técnico en diseño gráfico</h2>
+    <div class="cv-section">
+        <h3>Datos personales</h3>
+        <ul>
+            <li>Email: emanueltapias@gmail.com</li>
+            <li>Teléfono: 30021442</li>
+            <li>Ciudad: Tu ciudad</li>
+        </ul>
+    </div>
+    <div class="cv-section">
+        <h3>Experiencia</h3>
+        <ul>
+            <li><strong>Puesto</strong> Tienda de ropa (2021 - 2022)</li>
+        </ul>
+    </div>
+    <div class="cv-section">
+        <h3>Educación</h3>
+        <ul>
+            <li><strong>bachiller</strong> - Jose Antonio Galan (2025)</li>
+        </ul>
+    </div>
+    <div class="cv-section">
+        <h3>Habilidades</h3>
+        <ul>
+            <li>Natacion</li>
+            <li>modelado</li>
+        </ul>
+</div>
+
+</div><div class="julian">
+
+<div class="galeria-fotos">
+    <div class="foto-con-descripcion">
+        <img src="centro.png" alt="Foto 1" class="foto-galeria">
+        <p>centro comercial echo en blender </p>
+        <!-- este es mi centro comercial que hice en blender que me tarde masomenos 3 dias  -->
+    </div>
+    <div class="foto-con-descripcion">
+        <img src="sable.png" alt="Foto 2" class="foto-galeria">
+        <p>sable elaborado en blender</p>
+        <!-- El primer trabajo que se elaboro en blender y mi primer trabajo  -->
+    </div>
+    <div class="foto-con-descripcion">
+        <img src="the new.png" alt="Foto 3" class="foto-galeria">
+        <p>the new pagina informativa</p>
+        <!-- un trabajo que es informativo sobre noticias o eventos  -->
+    </div>
+    <div class="foto-con-descripcion">
+        <img src="inskape p.png" alt="Foto 4" class="foto-galeria">
+        <p>inskape explicando como es el programa</p>
+        <!-- Este tranajo fue explicando como se trabaja en inskape y como se comporta a comparacion de ilustrator -->
+    </div>
+</div>
+
+</body>
+</html>

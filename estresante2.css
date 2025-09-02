@@ -1,0 +1,176 @@
+.mi-elemento {
+    margin: 10px;
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #90caf9;
+}
+/*la base de mi proyecto donde se diferencia el color donde esta tada la informacion  */
+
+ .imagen-derecha {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  margin-left: 900px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+/* organiza mi logo en el centro de la pagina bordeandolo  */
+
+.boton {
+    padding: 12px 24px;
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);}
+
+/* pinta mi boton y loce ver mas organizado o mejor diseñado  */
+
+    .cv-section {
+    margin: 10px;
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #90caf9;}
+
+    /* organiza mi otro div osea mi imagen de perfil y informacion  */
+
+   .imagen-izquierda {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  margin-left: 900px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+  /* mi imagen de mi rostro que la organiza al lado derecho y tengo distribucion de secciones  */
+
+.cv-container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #f9f9f9;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.cv-container h1 {
+    color: #1976d2;
+    margin-bottom: 0;
+}
+
+.cv-container h2 {
+    color: #424242;
+    margin-top: 4px;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.cv-section {
+    margin-top: 24px;
+}
+
+.cv-section h3 {
+    color: #1565c0;
+    margin-bottom: 8px;
+}
+
+.cv-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.cv-section li {
+    margin-bottom: 6px;
+    padding-left: 8px;
+    border-left: 3px solid #90caf9;
+}
+
+/* estas secciones son div dentro de otro div pero es para separar y distingir la informacion  */
+
+.tercera-margen {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fffde7;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.galeria-fotos {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.foto-con-descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #90caf9;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    margin: 8px 0;
+}
+
+/* esto es para tener una brebe explicacion de tu imagen  */
+
+.foto-galeria {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.foto-con-descripcion p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+.julian {
+    margin: 10px;
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #90caf9;
+}
+
+/* fondo donde estan lostrabajo con descripcion esa el div de fondo  */
+
+.barra-busqueda {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 8px 16px;
+    width: 350px;
+    margin: 30px auto;
+}
+
+/* esto es como un div pero es una barra de busqueda donde se pone logo y opcion de busqueda */
+
+.logo-busqueda {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
+
+/* tamaño de las imegenes y poder que se vea esteticamente bien  */
+
+.barra-busqueda input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex: 1;
+    background: transparent;
+}
+
+/* esto es donde te permite buscar lo que estas pensando  */
