@@ -9,7 +9,7 @@
 
     <div class="barra-busqueda">
     <img src="logo.jpg" alt="Logo" class="logo-busqueda">
-    <!-- esta imagen hace la representacion de de mi hoja de bida -->
+    <!-- esta imagen hace la representacion de de mi hoja de vida -->
     <input type="text" placeholder="Buscar...">
 </div>
 
